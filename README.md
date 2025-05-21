@@ -55,19 +55,14 @@ Sample JSON responses and curl examples
 
 To get started with a lab:
 
-bash
-Copy
-Edit
 cd lab-guides
 open Lab1-REST-API-Intro.md
+
 Then follow along with the script or use the browser-based environment provided at the workshop.
 
  Workshop Tools Access
 All tools are accessible via the Workshop Portal, available at:
 
-arduino
-Copy
-Edit
  https://onug2025-labportal.example.com
 Use the credentials provided during the event. If you're following this on your own:
 
@@ -75,11 +70,9 @@ Clone this repository
 
 Optionally, run the simulated API server locally:
 
-bash
-Copy
-Edit
 cd api-server
 uvicorn main:app --reload
+
  Presentation & Scripts
 assets/ONUG 2025 - API-Driven Network Efficiency Workshop (Presentation).pdf
 The official workshop slides.
@@ -103,11 +96,3 @@ This workshop is part of ONUG 2025 and developed in collaboration with leading e
 
  Questions or issues?
 Please open an issue or discussion in this repo.
-
-yaml
-Copy
-Edit
-
----
-
-Would you like me to generate a sample `FastAPI` server and example lab files to populate this structure?
